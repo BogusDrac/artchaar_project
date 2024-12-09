@@ -1,13 +1,21 @@
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+import Home from "./components/Home"
+import OrderComponent from "./components/OrderComponent"
+import ReviewsComponent from "./components/ReviewsComponent"
 
 function App() {
   return (
-    <>
-      
-      <p className="text-green-300">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/order" element={<OrderComponent />} />
+        <Route path="/reviews" element={<ReviewsComponent />} />
+       </Routes>
+      <Footer />
+    </Router>
   )
 }
 
