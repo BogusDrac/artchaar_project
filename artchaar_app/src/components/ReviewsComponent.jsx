@@ -4,8 +4,8 @@ import { Star, MessageCircle, User } from 'lucide-react';
 const ReviewsComponent = () => {
   const [review, setReview] = useState('');
   const [reviews, setReviews] = useState([
-    { id: 1, name: 'Alice', content: 'Amazing flavors, especially the spicy one!' },
-    { id: 2, name: 'John', content: 'Great taste and quick delivery.' },
+    { id: 1, name: 'Lethabo Touch', content: 'Amazing flavor, I really enjoyed "le e babayo"!' },
+    { id: 2, name: 'Thuso Zulu', content: 'Great taste and quick delivery.' },
   ]);
 
   const handleReviewSubmit = (e) => {

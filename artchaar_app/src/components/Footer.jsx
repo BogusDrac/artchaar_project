@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-gradient-to-br from-[#FFF3E0] to-[#FFE5B4] text-gray-800 py-12 px-4 sm:px-6 lg:px-8">
+    <footer className="relative bg-gradient-to-br from-[#FFF3E0] to-[#FFE5B4] text-gray-800 py-12 px-4 sm:px-6 lg:px-8 select-none font-poppins">
       {/* Decorative Wave Separator */}
       <div className="absolute top-0 left-0 w-full overflow-hidden">
         <svg 
@@ -28,7 +28,7 @@ const Footer = () => {
               <h3 className="text-xl font-semibold font-quicksand text-red-900">About Me</h3>
             </div>
             <p className="text-sm font-lora text-gray-700 leading-relaxed">
-              Nestled in the heart of our community, we craft delectable biscuits, scones, and pastries with passion and the finest ingredients. Each bite tells a story of tradition and love.
+                Believe me when I say I've explored many paths—selling various things, learning, and adapting along the way. But this is where my heart truly lies. This isn't just a hobby; it's my passion. If you think I’m just saying that, I challenge you to experience it for yourself.
             </p>
           </div>
 
@@ -70,16 +70,15 @@ const Footer = () => {
             </div>
             <ul className="text-sm space-y-3 font-lora text-gray-700">
               <li className="flex justify-between">
-                <span className="font-semibold">Monday - Friday</span>
+                <span className="font-semibold">Monday - Saturday</span>
                 <span>8:00 AM - 6:00 PM</span>
-              </li>
-              <li className="flex justify-between">
-                <span className="font-semibold">Saturday</span>
-                <span>9:00 AM - 5:00 PM</span>
               </li>
               <li className="flex justify-between">
                 <span className="font-semibold text-red-600">Sunday</span>
                 <span className="text-red-600">Closed</span>
+              </li>
+              <li className="flex justify-between">
+                <span className=" text-2xl mt-3 ml-12 text-center font-bold text-red-900 mb-8 animate-pulse">Feel Free To Order Anyday!</span>
               </li>
             </ul>
           </div>
@@ -87,7 +86,7 @@ const Footer = () => {
 
         {/* Social Media Section */}
         <div className="border-t border-white/20 pt-8">
-          <h1 className="text-center font-cookie text-4xl font-bold text-red-900 mb-8 animate-pulse">Follow Me</h1>
+          <h1 className="text-center text-4xl font-bold text-red-900 mb-8 animate-pulse">Follow Me</h1>
           <div className="flex flex-row items-center justify-center space-x-8">
             {/* Instagram */}
             <Link 

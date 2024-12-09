@@ -45,7 +45,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#FFF3E0] to-[#FFE5B4] overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-[#FFF3E0] to-[#FFE5B4] overflow-hidden select-none font-poppins">
       {/* Top Wave Separator */}
       <div className="absolute top-0 left-0 w-full overflow-hidden">
         <svg 
@@ -64,8 +64,7 @@ const Home = () => {
             Mama's Archaar
           </h1>
           <p className="text-lg md:text-xl font-lora text-gray-700 max-w-2xl mx-auto">
-            Authentic, Handcrafted Pickles Bursting with Traditional Flavors. 
-            Every Jar Tells a Story of Generations of Culinary Passion.
+          At the heart of every jar of archaar lies a bold, zesty symphony of ripe fruits, rich spices, and tradition. Tangy, fiery, and unforgettable—each spoonful is a celebration of flavor
           </p>
         </div>
 
@@ -123,7 +122,7 @@ const Home = () => {
           </div>
 
           {/* Features Section */}
-        <div className="grid md:grid-cols-3 gap-8 text-center mt-5">
+        <div className="grid md:grid-cols-3 gap-8 text-center mt-10">
           <div className="bg-white/30 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all group">
             <Heart 
               size={48} 
@@ -133,7 +132,7 @@ const Home = () => {
               Handmade with Love
             </h3>
             <p className="text-gray-700 font-lora">
-              Each pickle is crafted using traditional family recipes passed down through generations.
+              Each Archaar is crafted using traditional family recipes passed down through generations.
             </p>
           </div>
 
@@ -146,7 +145,7 @@ const Home = () => {
               Quick Delivery
             </h3>
             <p className="text-gray-700 font-lora">
-              Fresh pickles delivered straight to your doorstep, ensuring maximum flavor and quality.
+              Fresh Archaar delivered straight to your doorstep, ensuring maximum flavor and quality.
             </p>
           </div>
 
@@ -159,7 +158,7 @@ const Home = () => {
               Custom Orders
             </h3>
             <p className="text-gray-700 font-lora">
-              Personalize your pickle experience with custom flavor combinations and packaging.
+              Personalize your Archaar experience with custom flavor combinations and packaging.
             </p>
           </div>
         </div>

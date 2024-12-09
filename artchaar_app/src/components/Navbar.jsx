@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative bg-gradient-to-br from-[#FFF3E0] to-[#FFE5B4] select-none">
+    <nav className="relative bg-gradient-to-br from-[#FFF3E0] to-[#FFE5B4] select-none font-poppins">
       {/* Top Wave Separator */}
       <div className="absolute top-0 left-0 w-full overflow-hidden">
         <svg 
